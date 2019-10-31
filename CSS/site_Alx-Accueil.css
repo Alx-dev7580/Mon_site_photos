@@ -1,0 +1,85 @@
+body.body {
+  background: url("../image/Bg.jpg") no-repeat;
+  background-size: cover;
+}
+
+body.body2 {
+  background: url("../image/Bg_flou.jpg") no-repeat;
+  background-size: cover;
+}
+
+div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 5px;
+  width: 50%;
+  margin-left: 25%;
+  margin-top: -50px;
+}
+
+nav {
+  background: black;
+  opacity: 0.5;
+  padding: 15px;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: space-between;
+  margin-top: 5px;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: right;
+  position: absolute;
+  bottom: 0;
+  left: 350px;
+}
+
+footer a {
+  color: black;
+  padding-right: 50px;
+}
+
+footer a {
+  color: black;
+}
+
+footer a:active {
+  background: black;
+  opacity: 0.2;
+}
+
+footer a:visited {
+  color: black;
+}
+
+nav a {
+  color: white;
+}
+
+nav a:active {
+  background: #263c67;
+}
+
+.text_centrer {
+  color: black;
+  font-family: "Calibri";
+  font-size: 20px;
+  position: fixed;
+  top: 175px;
+  z-index: 100;
+}
+
+.text_centrer:hover {
+  color: #ebedf3;
+  cursor: pointer;
+}
+
+.logo_Alx {
+  z-index: 100;
+  width: 50%;
+}
